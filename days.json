@@ -1,86 +1,1058 @@
 {
+	"title": "iDays - Data list",
+	"desc": "This json file contains all the data about the days used for the Twitter App : iDays",
+	"sources": [
+		"https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale",
+		"https://www.un.org/fr/sections/observances/international-days/"
+	],
+
 	"janvier": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée mondiale de la paix",
+			"emoji": "🕊",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_paix",
+			"day": "1"
+		},
+		{
+			"content": "Journée mondiale du braille\n⠚⠕⠥⠗⠝⠑⠑ ⠍⠕⠝⠙⠊⠁⠇⠑ ⠙⠥ ⠃⠗⠁⠊⠇⠇⠑",
+			"emoji": "🦯",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_du_braille",
+			"day": "4"
+		},
+		{
+			"content": "Journée internationale des câlins",
+			"emoji": "🤗",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_c%C3%A2lins",
+			"day": "21"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée internationale du sport féminin",
+					"emoji": "🏃‍♀️",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_du_sport_f%C3%A9minin"
+				},
+				{
+					"content": "Journée internationale de l'éducation",
+					"emoji": "🎓",
+					"link": "https://www.un.org/fr/events/educationday/"
+				}
+			],
+			"day": "24"
+		},
+		{
+			"content": "Journée internationale de commémoration en mémoire des victimes de l'Holocauste",
+			"emoji": "🙏",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_comm%C3%A9moration_en_m%C3%A9moire_des_victimes_de_l%27Holocauste",
+			"day": "27"
 		}
 	],
 	"fevrier": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée internationale de l'épilepsie",
+			"emoji": "🧠",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_l%27%C3%A9pilepsie",
+			"day": "specific_2_lundi"
+		},
+		{
+			"content": "Journée mondiale des zones humides",
+			"emoji": "💦",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_des_zones_humides",
+			"day": "2"
+		},
+		{
+			"content": "Journée mondiale contre le cancer",
+			"emoji": "👦",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_contre_le_cancer",
+			"day": "4"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée internationale contre les mutilations génitales féminines",
+					"emoji": "🚺",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_contre_les_mutilations_g%C3%A9nitales_f%C3%A9minines"
+				},
+				{
+					"content": "Journée mondiale sans téléphone portable",
+					"emoji": "📵",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_sans_t%C3%A9l%C3%A9phone_portable"
+				}
+			],
+			"day": "6"
+		},
+		{
+			"content": "Journée internationale des légumineuses",
+			"emoji": "🌱",
+			"link": "https://www.un.org/fr/events/pulsesday/index.shtml",
+			"day": "10"
+		},
+		{
+			"content": "Journée internationale des femmes et des filles de science",
+			"emoji": "👩‍🔬",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_femmes_et_des_filles_de_science",
+			"day": "11"
+		},
+		{
+			"content": "Journée Darwin",
+			"emoji": "🔬",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_Darwin",
+			"day": "12"
+		},
+		{
+			"content": "Journée mondiale de la radio",
+			"emoji": "📻",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_radio",
+			"day": "13"
+		},
+		{
+			"content": "Journée internationale de sensibilisation aux cardiopathies congénitales",
+			"emoji": "❤️️",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_sensibilisation_aux_cardiopathies_cong%C3%A9nitales",
+			"day": "14"
+		},
+		{
+			"content": "Journée mondiale contre le cancer chez l'enfant",
+			"emoji": "🧒",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_contre_le_cancer_chez_l%27enfant",
+			"day": "15"
+		},
+		{
+			"content": "Journée mondiale de la justice sociale",
+			"emoji": "🏘",
+			"link": "http://www.un.org/fr/events/socialjusticeday/index.shtml",
+			"day": "20"
+		},
+		{
+			"content": "Journée internationale de la langue maternelle",
+			"emoji": "🗣️",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_langue_maternelle",
+			"day": "21"
+		},
+		{
+			"content": "Journée mondiale des ONG",
+			"emoji": "🌐",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_des_ONG",
+			"day": "27"
 		}
 	],
 	"mars": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée internationale du sommeil",
+			"emoji": "😴",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_du_sommeil",
+			"day": "specific_3_mercredi"
+		},
+		{
+			"content": "Une heure pour la planète",
+			"emoji": "🌍",
+			"link": "https://fr.wikipedia.org/wiki/Earth_Hour",
+			"day": "specific_last_mercredi"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée internationale de la protection civile",
+					"emoji": "🚑",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_protection_civile"
+				},
+				{
+					"content": "Journée « Zéro discrimination »",
+					"emoji": "🚫",
+					"link": "http://www.unaids.org/fr/2019_ZDD_campaign"
+				}
+			],
+			"day": "1"
+		},
+		{
+			"content": "Journée mondiale de la vie sauvage",
+			"emoji": "🦁",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_vie_sauvage",
+			"day": "3"
+		},
+		{
+			"content": "Journée internationale des femmes",
+			"emoji": "👩",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_femmes",
+			"day": "8"
+		},
+		{
+			"content": "Journée mondiale de la plomberie",
+			"emoji": "🔧",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_plomberie",
+			"day": "11"
+		},
+		{
+			"content": "Journée de pi",
+			"emoji": "π",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_pi",
+			"day": "14"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée mondiale du bonheur",
+					"emoji": "😁",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_du_bonheur"
+				},
+				{
+					"content": "Journée internationale de la Francophonie",
+					"emoji": "💬",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_Francophonie"
+				},
+				{
+					"content": "Jour de la Terre (Équinoxe)",
+					"emoji": "🌍",
+					"link": "https://fr.wikipedia.org/wiki/Jour_de_la_Terre"
+				}
+			],
+			"day": "20"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée internationale des forêts",
+					"emoji": "🌳",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_for%C3%AAts"
+				},
+				{
+					"content": "Journée internationale pour l'élimination de la discrimination raciale",
+					"emoji": "👩‍❤️‍👨🏿",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_pour_l%27%C3%A9limination_de_la_discrimination_raciale"
+				},
+				{
+					"content": "Journée mondiale de la marionnette",
+					"emoji": "🎎",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_marionnette"
+				},
+				{
+					"content": "Journée mondiale de la poésie",
+					"emoji": "✍",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_po%C3%A9sie"
+				},
+				{
+					"content": "Journée mondiale de la trisomie 21",
+					"emoji": "👦",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_trisomie_21"
+				},
+				{
+					"content": "Jour de la Terre (Équinoxe)",
+					"emoji": "🌍",
+					"link": "https://fr.wikipedia.org/wiki/Jour_de_la_Terre"
+				}
+			],
+			"day": "21"
+		},
+		{
+			"content": "Journée mondiale de l'eau",
+			"emoji": "💧",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_l%27eau",
+			"day": "22"
+		},
+		{
+			"content": "Journée météorologique mondiale",
+			"emoji": "🌪",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_m%C3%A9t%C3%A9orologique_mondiale",
+			"day": "23"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée mondiale de lutte contre la tuberculose",
+					"emoji": "🦠",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_lutte_contre_la_tuberculose"
+				},
+				{
+					"content": "Journée internationale pour le droit à la vérité en ce qui concerne les violations flagrantes des droits de l'homme et pour la dignité des victimes",
+					"emoji": "⚖",
+					"link": "http://www.un.org/fr/events/righttotruthday/index.shtml"
+				}
+			],
+			"day": "24"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée mondiale de la procrastination",
+					"emoji": "💤",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_procrastination"
+				},
+				{
+					"content": "Journée mondiale pour la fin de la pêche",
+					"emoji": "🎣",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_pour_la_fin_de_la_p%C3%AAche"
+				},
+				{
+					"content": "Journée internationale de commémoration des victimes de l’esclavage et de la traite transatlantique des esclaves",
+					"emoji": "🙌",
+					"link": "http://www.un.org/fr/events/slaveryremembranceday/"
+				},
+				{
+					"content": "Journée mondiale pour la fin de la pêche",
+					"emoji": "🤝",
+					"link": "http://www.un.org/fr/events/detainedstaffday/index.shtml"
+				}
+			],
+			"day": "25"
+		},
+		{
+			"content": "Journée mondiale du théâtre",
+			"emoji": "🎭",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_du_th%C3%A9%C3%A2tre",
+			"day": "27"
+		},
+		{
+			"content": "Journée mondiale des troubles bipolaires",
+			"emoji": "🏥",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_des_troubles_bipolaires",
+			"day": "30"
+		},
+		{
+			"content": "Journée internationale de visibilité transgenre",
+			"emoji": "🏳‍🌈",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_visibilit%C3%A9_transgenre",
+			"day": "31"
 		}
 	],
 	"avril": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée mondiale de la sensibilisation à l'autisme",
+			"emoji": "👦",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_sensibilisation_%C3%A0_l%27autisme",
+			"day": "2"
+		},
+		{
+			"content": "Journée internationale pour la sensibilisation aux mines et l'assistance à la lutte antimines",
+			"emoji": "💣",
+			"link": "http://www.un.org/fr/events/mineawarenessday/index.shtml",
+			"day": "4"
+		},
+		{
+			"content": "Journée internationale du sport au service du développement et de la paix",
+			"emoji": "🏅",
+			"link": "http://www.un.org/fr/events/sportday/",
+			"day": "6"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée mondiale de la santé",
+					"emoji": "⚕",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_sant%C3%A9"
+				},
+				{
+					"content": "Journée internationale de réflexion sur le génocide des Tutsis au Rwanda en 1994",
+					"emoji": "🚫",
+					"link": "https://www.un.org/fr/preventgenocide/rwanda/"
+				}
+			],			
+			"day": "7"
+		},
+		{
+			"content": "Journée internationale des Roms",
+			"emoji": "🚐",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_Roms",
+			"day": "8"
+		},
+		{
+			"content": "Journée internationale du vol spatial habité",
+			"emoji": "🚀",
+			"link": "http://www.un.org/fr/events/humanspaceflightday/index.shtml",
+			"day": "12"
+		},
+		{
+			"content": "Semaine mondiale de la vaccination",
+			"emoji": "💉",
+			"link": "https://fr.wikipedia.org/wiki/Semaine_mondiale_de_la_vaccination",
+			"day": "20"
+		},
+		{
+			"content": "Journée mondiale de la créativité et de l’innovation",
+			"emoji": "🤖",
+			"link": "https://www.un.org/fr/events/creativityday/",
+			"day": "21"
+		},
+		{
+			"content": "Jour de la Terre",
+			"emoji": "🌍",
+			"link": "https://fr.wikipedia.org/wiki/Jour_de_la_Terre",
+			"day": "22"
+		},
+		{
+			"content": "Journée mondiale du livre et du droit d'auteur",
+			"emoji": "📚",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_du_livre_et_du_droit_d%27auteur",
+			"day": "23"
+		},
+		{
+			"content": "Journée mondiale du paludisme",
+			"emoji": "🦟",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_du_paludisme",
+			"day": "25"
+		},
+		{
+			"content": "Journée internationale de la danse",
+			"emoji": "💃",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_danse",
+			"day": "29"
+		},
+		{
+			"content": "Journée internationale du jazz",
+			"emoji": "🎷",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_du_jazz",
+			"day": "30"
 		}
 	],
 	"mai": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée internationale des travailleurs",
+			"emoji": "👨‍🏭",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_travailleurs",
+			"day": "1"
+		},
+		{
+			"content": "Journée mondiale de la liberté de la presse",
+			"emoji": "📰",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_libert%C3%A9_de_la_presse",
+			"day": "3"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée Star Wars",
+					"emoji": "🌌",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_Star_Wars"
+				},
+				{
+					"content": "Journée internationale des pompiers",
+					"emoji": "👨‍🚒",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_pompiers"
+				}
+			],
+			"day": "4"
+		},
+		{
+			"content": "Journée de l'Europe du Conseil de l'Europe",
+			"emoji": "🇪🇺",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_l%27Europe_(Conseil_de_l%27Europe)",
+			"day": "5"
+		},
+		{
+			"content": "Journée internationale sans régime",
+			"emoji": "🍔",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_sans_r%C3%A9gime",
+			"day": "6"
+		},
+		{
+			"content": "Journée mondiale des orphelins du SIDA",
+			"emoji": "🎗",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_des_orphelins_du_SIDA",
+			"day": "7"
+		},
+		{
+			"content": "Journée de l'Europe de l'Union européenne",
+			"emoji": "🇪🇺",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_l%27Europe_(Union_europ%C3%A9enne)",
+			"day": "9"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée internationale de l'infirmière",
+					"emoji": "👩‍⚕️",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_l%27infirmi%C3%A8re"
+				},
+				{
+					"content": "Journée mondiale des maladies d'origine environnementale",
+					"emoji": "🍃",
+					"link": "https://www.handirect.fr/journee-mondiale-des-maladies-dorigine-environnementale/"
+				}
+			],
+			"day": "12"
+		},
+		{
+			"content": "Journée internationale du vivre-ensemble en paix",
+			"emoji": "✌",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_du_vivre-ensemble_en_paix",
+			"day": "16"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée mondiale de la société de l'information",
+					"emoji": "ℹ",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_soci%C3%A9t%C3%A9_de_l%27information"
+				},
+				{
+					"content": "Journée mondiale contre l'homophobie et la transphobie",
+					"emoji": "🏳‍🌈",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_contre_l%27homophobie_et_la_transphobie"
+				}
+			],
+			"day": "17"
+		},
+		{
+			"content": "Journée internationale des musées",
+			"emoji": "🏛️",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_mus%C3%A9es",
+			"day": "18"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée mondiale des abeilles",
+					"emoji": "🐝",
+					"link": "https://www.un.org/fr/events/beeday/"
+				},
+				{
+					"content": "Journée mondiale de la métrologie",
+					"emoji": "📐",
+					"link": "http://www.worldmetrologyday.org/press_release_french.html"
+				}
+			],
+			"day": "20"
+		},
+		{
+			"content": "Journée mondiale pour la diversité culturelle, le dialogue et le développement",
+			"emoji": "🎨",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_pour_la_diversit%C3%A9_culturelle,_le_dialogue_et_le_d%C3%A9veloppement",
+			"day": "21"
+		},
+		{
+			"content": "Journée internationale de la biodiversité",
+			"emoji": "🌍",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_biodiversit%C3%A9",
+			"day": "22"
+		},
+		{
+			"content": "Journée internationale des enfants disparus",
+			"emoji": "👨‍👦",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_enfants_disparus",
+			"day": "25"
+		},
+		{
+			"content": "Journée internationale des Casques bleus",
+			"emoji": "🇺🇳",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_Casques_bleus",
+			"day": "29"
+		},
+		{
+			"content": "Journée mondiale sans tabac",
+			"emoji": "🚭",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_sans_tabac",
+			"day": "31"
 		}
 	],
 	"juin": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée internationale des enfants victimes innocentes de l'agression",
+			"emoji": "👨‍👦",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_enfants_victimes_innocentes_de_l%27agression",
+			"day": "4"
+		},
+		{
+			"content": "Journée mondiale de l'environnement",
+			"emoji": "🌿",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_l%27environnement",
+			"day": "5"
+		},
+		{
+			"content": "Journée mondiale de l'océan",
+			"emoji": "🌊",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_l%27oc%C3%A9an",
+			"day": "8"
+		},
+		{
+			"content": "Journée internationale des archives",
+			"emoji": "🗃",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_archives",
+			"day": "9"
+		},
+		{
+			"content": "Journée mondiale du donneur de sang",
+			"emoji": "💉",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_du_donneur_de_sang",
+			"day": "14"
+		},
+		{
+			"content": "Journée de l'enfant africain",
+			"emoji": "🧒🏿",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_l%27enfant_africain",
+			"day": "16"
+		},
+		{
+			"content": "Journée mondiale des réfugiés",
+			"emoji": "👥",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_des_r%C3%A9fugi%C3%A9s",
+			"day": "20"
+		},
+		{
+			"content": "Fête de la musique",
+			"emoji": "🎶",
+			"link": "https://fr.wikipedia.org/wiki/F%C3%AAte_de_la_musique",
+			"day": "21"
+		},
+		{
+			"content": "Journée des Nations unies pour la fonction publique",
+			"emoji": "🖊",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_des_Nations_unies_pour_la_fonction_publique",
+			"day": "23"
+		},
+		{
+			"content": "Journée internationale contre la torture",
+			"emoji": "☠",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_contre_la_torture",
+			"day": "26"
 		}
 	],
 	"juillet": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée internationale des coopératives",
+			"emoji": "🤝",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_coop%C3%A9ratives",
+			"day": "specific_1_samedi"
+		},
+		{
+			"content": "Journée mondiale de la population",
+			"emoji": "📈",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_population",
+			"day": "11"
+		},
+		{
+			"content": "Journée internationale Nelson Mandela",
+			"emoji": "☮",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_Nelson_Mandela",
+			"day": "18"
+		},
+		{
+			"content": "Journée mondiale de la dignité des victimes de la traite d'êtres humains",
+			"emoji": "👤",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_dignit%C3%A9_des_victimes_de_la_traite_d%27%C3%AAtres_humains",
+			"day": "30"
+		},
+		{
+			"content": "Journée mondiale de la femme africaine",
+			"emoji": "👩🏿",
+			"link": "http://www.journeefemmeafricaine.com/",
+			"day": "31"
 		}
 	],
 	"aout": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée internationale de la bière",
+			"emoji": "🍻",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_bi%C3%A8re",
+			"day": "specific_1_vendredi"
+		},
+		{
+			"content": "Journée internationale du chat",
+			"emoji": "🐈",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_du_chat",
+			"day": "8"
+		},
+		{
+			"content": "Journée internationale des populations autochtones",
+			"emoji": "👥",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_populations_autochtones",
+			"day": "9"
+		},
+		{
+			"content": "Journée internationale de la jeunesse",
+			"emoji": "🧒",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_jeunesse",
+			"day": "12"
+		},
+		{
+			"content": "Journée internationale des gauchers",
+			"emoji": "✋",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_gauchers",
+			"day": "13"
+		},
+		{
+			"content": "Journée mondiale de l'aide humanitaire",
+			"emoji": "🆘",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_l%27aide_humanitaire",
+			"day": "19"
+		},
+		{
+			"content": "Journée internationale de commémoration des personnes victimes de violence en raison de leur religion ou de leurs convictions",
+			"emoji": "🙌",
+			"link": "https://www.un.org/fr/events/victimsofreligiousviolenceday/",
+			"day": "22"
+		},
+		{
+			"content": "Journée mondiale pour la fin du spécisme",
+			"emoji": "🐻",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_pour_la_fin_du_sp%C3%A9cisme",
+			"day": "27"
+		},
+		{
+			"content": "Journée internationale des victimes de disparition forcée",
+			"emoji": "☠",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_victimes_de_disparition_forc%C3%A9e",
+			"day": "30"
 		}
 	],
 	"septembre": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journées européennes du patrimoine",
+			"emoji": "🏰",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9es_europ%C3%A9ennes_du_patrimoine",
+			"day": "specific_3_samedi"
+		},
+		{
+			"content": "Journée mondiale des sourds",
+			"emoji": "🦻🏼",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_des_sourds",
+			"day": "specific_last_samedi"
+		},
+		{
+			"content": "Journée mondiale de prière pour la sauvegarde de la Création",
+			"emoji": "🙏🏼",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_pri%C3%A8re_pour_la_sauvegarde_de_la_Cr%C3%A9ation",
+			"day": "1"
+		},
+		{
+			"content": "Journée internationale de l'alphabétisation",
+			"emoji": "🔤",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_l%27alphab%C3%A9tisation",
+			"day": "8"
+		},
+		{
+			"content": "Journée mondiale de la prévention du suicide",
+			"emoji": "💀",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_pr%C3%A9vention_du_suicide",
+			"day": "10"
+		},
+		{
+			"content": "Journée internationale du bambou",
+			"emoji": "🎋",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_du_bambou",
+			"day": "18"
+		},
+		{
+			"content": "International Talk Like a Pirate Day",
+			"emoji": "🏴‍☠️",
+			"link": "https://fr.wikipedia.org/wiki/International_Talk_Like_a_Pirate_Day",
+			"day": "19"
+		},
+		{
+			"content": "Journée internationale de la paix",
+			"emoji": "🕊",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_paix",
+			"day": "21"
+		},
+		{
+			"content": "Journée internationale sans voitures",
+			"emoji": "🚗",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_sans_voiture",
+			"day": "22"
+		},
+		{
+			"content": "Journée de la bisexualité",
+			"emoji": "🏳️‍🌈",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_la_bisexualit%C3%A9",
+			"day": "23"
+		},
+		{
+			"content": "Journée européenne des langues",
+			"emoji": "💬",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_europ%C3%A9enne_des_langues",
+			"day": "26"
+		},
+		{
+			"content": "Journée mondiale du tourisme",
+			"emoji": "✈",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_du_tourisme",
+			"day": "27"
+		},
+		{
+			"content": "Journée mondiale de la rage",
+			"emoji": "🧫",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_rage",
+			"day": "28"
+		},
+		{
+			"content": "Journée internationale de la traduction",
+			"emoji": "🔡",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_traduction",
+			"day": "30"
 		}
 	],
 	"octobre": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée internationale pour les personnes âgées",
+			"emoji": "👴",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_pour_les_personnes_%C3%A2g%C3%A9es",
+			"day": "1"
+		},
+		{
+			"content": "Journée internationale de la non-violence",
+			"emoji": "🤝",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_non-violence",
+			"day": "2"
+		},
+		{
+			"content": "Journée mondiale des animaux",
+			"emoji": "🐺",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_des_animaux",
+			"day": "4"
+		},
+		{
+			"content": "Journée mondiale des enseignants",
+			"emoji": "👨‍🏫",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_des_enseignants",
+			"day": "5"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée mondiale de la santé mentale",
+					"emoji": "🧠",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_sant%C3%A9_mentale"
+				},
+				{
+					"content": "Journée mondiale contre la peine de mort",
+					"emoji": "☠️",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_contre_la_peine_de_mort"
+				}
+			],
+			"day": "10"
+		},
+		{
+			"content": "Journée internationale de la fille",
+			"emoji": "👧",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_fille",
+			"day": "11"
+		},
+		{
+			"content": "Journée de la langue espagnole",
+			"emoji": "🇪🇸",
+			"link": "https://fr.wikipedia.org/wiki/F%C3%AAte_nationale_espagnole#Journ%C3%A9e_de_la_langue_espagnole",
+			"day": "12"
+		},
+		{
+			"content": "Journée internationale de la femme rurale",
+			"emoji": "🤷‍♀️",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_femme_rurale",
+			"day": "15"
+		},
+		{
+			"content": "Journée internationale pour l'élimination de la pauvreté",
+			"emoji": "💸",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_pour_l%27%C3%A9limination_de_la_pauvret%C3%A9",
+			"day": "17"
+		},
+		{
+			"content": "Journée mondiale de la ménopause",
+			"emoji": "🤰🏼",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_m%C3%A9nopause",
+			"day": "18"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée mondiale de la statistique",
+					"emoji": "📈",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_statistique"
+				},
+				{
+					"content": "Journée Mondiale contre l'Ostéoporose",
+					"emoji": "🦴",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_Mondiale_contre_l%27Ost%C3%A9oporose"
+				}
+			],
+			"day": "20"
+		},
+		{
+			"content": "Journée internationale de sensibilisation au bégaiement",
+			"emoji": "🗣",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_sensibilisation_au_b%C3%A9gaiement",
+			"day": "22"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée des Nations unies",
+					"emoji": "🇳🇺",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_des_Nations_unies"
+				},
+				{
+					"content": "Journée mondiale d'information sur le développement",
+					"emoji": "⤴",
+					"link": "https://www.un.org/fr/events/devinfoday/"
+				}
+			],
+			"day": "24"
+		},
+		{
+			"content": "Journée européenne de la justice",
+			"emoji": "⚖",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_europ%C3%A9enne_de_la_justice",
+			"day": "25"
+		},
+		{
+			"content": "Journée mondiale du patrimoine audiovisuel",
+			"emoji": "📺",
+			"link": "https://www.un.org/fr/events/audiovisualday/",
+			"day": "27"
+		},
+		{
+			"content": "Journée mondiale du cinéma d'animation",
+			"emoji": "📽",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_du_cin%C3%A9ma_d%27animation",
+			"day": "28"
 		}
 	],
 	"novembre": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée mondiale de la philosophie",
+			"emoji": "📖",
+			"link": "https://www.un.org/fr/events/philosophyday/",
+			"day": "specific_3_jeudi"
+		},
+		{
+			"content": "Journée mondiale sans achat",
+			"emoji": "🛒",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_sans_achat",
+			"day": "specific_last_samedi"
+		},
+		{
+			"content": "Journée mondiale du véganisme",
+			"emoji": "🥗",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_du_v%C3%A9ganisme",
+			"day": "1"
+		},
+		{
+			"content": "Journée mondiale pour le droit de mourir dans la dignité",
+			"emoji": "💊",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_pour_le_droit_de_mourir_dans_la_dignit%C3%A9",
+			"day": "2"
+		},
+		{
+			"content": "Journée internationale de la gentillesse",
+			"emoji": "💝",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_gentillesse",
+			"day": "3"
+		},
+		{
+			"content": "Journée internationale de la radiologie",
+			"emoji": "☢️",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_radiologie",
+			"day": "8"
+		},
+		{
+			"content": "Journée mondiale de la pneumonie",
+			"emoji": "🧬",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_pneumonie",
+			"day": "12"
+		},
+		{
+			"content": "Journée internationale de la tolérance",
+			"emoji": "✌",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_la_tol%C3%A9rance",
+			"day": "16"
+		},
+		{
+			"content": "Journée mondiale des toilettes",
+			"emoji": "🚽",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_des_toilettes",
+			"day": "19"
+		},
+		{
+			"content": "Journée internationale des droits de l'enfant",
+			"emoji": "👦",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_droits_de_l%27enfant",
+			"day": "20"
+		},
+		{
+			"content": "Journée internationale pour l'élimination de la violence à l'égard des femmes",
+			"emoji": "👩",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_pour_l%27%C3%A9limination_de_la_violence_%C3%A0_l%27%C3%A9gard_des_femmes",
+			"day": "25"
+		},
+		{
+			"content": "Journée internationale de solidarité avec le peuple palestinien",
+			"emoji": "🇵🇸",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_de_solidarit%C3%A9_avec_le_peuple_palestinien",
+			"day": "29"
 		}
 	],
 	"decembre": [
 		{
-			"content": "",
-			"emoji": "",
-			"date": ""
+			"content": "Journée mondiale de lutte contre le sida",
+			"emoji": "🎗",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_lutte_contre_le_sida",
+			"day": "1"
+		},
+		{
+			"content": "Journée de l'aviation civile internationale",
+			"emoji": "✈",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_l%27aviation_civile_internationale",
+			"day": "7"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée internationale des droits de l'homme",
+					"emoji": "🙌",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_droits_de_l%27homme"
+				},
+				{
+					"content": "Journée internationale pour le droit des animaux",
+					"emoji": "🐶",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_pour_le_droit_des_animaux"
+				}
+			],
+			"day": "10"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée de l’espéranto",
+					"emoji": "💬",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_l%E2%80%99esp%C3%A9ranto"
+				},
+				{
+					"content": "Journée internationale du thé",
+					"emoji": "🍵",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_du_th%C3%A9"
+				}
+			],
+			"day": "15"
+		},
+		{
+			"content": "Journée internationale pour l'élimination des violences faites aux travailleurs du sexe",
+			"emoji": "🔞",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_pour_l%27%C3%A9limination_des_violences_faites_aux_travailleurs_du_sexe",
+			"day": "17"
+		},
+		{
+			"entries": [
+				{
+					"content": "Journée internationale des migrants",
+					"emoji": "👥",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_des_migrants"
+				},
+				{
+					"content": "Journée mondiale de la langue arabe",
+					"emoji": "👳",
+					"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_la_langue_arabe"
+				}
+			],
+			"day": "18"
+		},
+		{
+			"content": "Journée mondiale de l'orgasme",
+			"emoji": "💋",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_l%27orgasme",
+			"day": "21"
+		},
+		{
+			"content": "Journée mondiale de l'orgasme",
+			"emoji": "💋",
+			"link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_mondiale_de_l%27orgasme",
+			"day": "22"
 		}
 	]
 }

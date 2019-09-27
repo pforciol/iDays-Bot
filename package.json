@@ -18,6 +18,7 @@
   "homepage": "https://github.com/pforciol/iDays-Bot#readme",
   "dependencies": {
     "dotenv": "^8.1.0",
+    "express": "^4.17.1",
     "twitter": "^1.7.1"
   }
 }
