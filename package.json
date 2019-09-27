@@ -1,0 +1,23 @@
+{
+  "name": "idays-bot",
+  "version": "1.0.0",
+  "description": "A Twitter bot that display each day of the year the \"International day of...\" if there is one.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Pierre Forcioli",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pforciol/iDays-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pforciol/iDays-Bot/issues"
+  },
+  "homepage": "https://github.com/pforciol/iDays-Bot#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "twitter": "^1.7.1"
+  }
+}
