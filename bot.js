@@ -1,16 +1,9 @@
-
-const express = require('express');
 const Twitter = require('twitter');
 const dotenv = require('dotenv').config();
 const config = require('./config.js');
 const daysJSON = require('./days.json');
 
-const app = express();
 const client = new Twitter(config);
-
-// app.get('/', (req, res) => {
-//   res.json({ status: "Welcome on iDays API"});
-// })
 
 const months = new Array();
 months[0] = "janvier";
@@ -149,12 +142,6 @@ const publishTweets = (days, specificDays) => {
 	return publishedTweets;
 }
 
+console.log(`${d.getDay()}/${d.getMonth() + 1}/${d.getFullYear()}`)
 console.log(publishTweets(days, specificDays));
-
-// client.post('statuses/update', {status: `${daysJSON.janvier[3].emoji} - ${daysJSON.janvier[3].content}`}, (error, tweet, response) => {
-// 	console.log(tweet);
-// });
-
-// app.listen(config.PORT, () => {
-//   console.log(`Server is ready on: http://localhost:${config.PORT}/`);
-// })
+console.log("_____________________________\n");
