@@ -74,7 +74,7 @@ const publishTweets = (days, specificDays) => {
 	if (days) {
 		if (days.entries) {
 			days.entries.map(day => {
-				const tweet = `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}\n\n${day.emoji} ${day.content}\n${day.link}`;
+				const tweet = `📅 Aujourd'hui, le ${d.getDate()}/${("0" + (d.getMonth() + 1)).slice(-2)}/${d.getFullYear()}\n\n${day.emoji} ${day.content}\n🔗 ${day.link}`;
 				
 				client.post('statuses/update', {status: tweet}, (error, tweetData, response) => {
 					if (error) console.log(error);
@@ -83,7 +83,7 @@ const publishTweets = (days, specificDays) => {
 				publishedTweets.push(tweet);
 			})
 		} else {
-			const tweet = `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}\n\n${days.emoji} ${days.content}\n${days.link}`;
+			const tweet = `📅 Aujourd'hui, le ${d.getDate()}/${("0" + (d.getMonth() + 1)).slice(-2)}/${d.getFullYear()}\n\n${days.emoji} ${days.content}\n🔗 ${days.link}`;
 			
 			client.post('statuses/update', {status: tweet}, (error, tweetData, response) => {
 				if (error) console.log(error);
@@ -100,7 +100,7 @@ const publishTweets = (days, specificDays) => {
 			const daysOfMonth = getDays(sp[2]);
 
 			if (sp[1] === '1' && daysOfMonth[0] && daysOfMonth[0] === now.day) {
-				const tweet = `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}\n\n${specificDay.emoji} ${specificDay.content}\n${specificDay.link}`;
+				const tweet = `📅 Aujourd'hui, le ${d.getDate()}/${("0" + (d.getMonth() + 1)).slice(-2)}/${d.getFullYear()}\n\n${specificDay.emoji} ${specificDay.content}\n🔗 ${specificDay.link}`;
 				
 				client.post('statuses/update', {status: tweet}, (error, tweetData, response) => {
 					if (error) console.log(error);
@@ -108,7 +108,7 @@ const publishTweets = (days, specificDays) => {
 
 				publishedTweets.push(tweet);
 			} else if (sp[1] === '2' && daysOfMonth[1] && daysOfMonth[1] === now.day) {
-				const tweet = `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}\n\n${specificDay.emoji} ${specificDay.content}\n${specificDay.link}`;
+				const tweet = `📅 Aujourd'hui, le ${d.getDate()}/${("0" + (d.getMonth() + 1)).slice(-2)}/${d.getFullYear()}\n\n${specificDay.emoji} ${specificDay.content}\n🔗 ${specificDay.link}`;
 				
 				client.post('statuses/update', {status: tweet}, (error, tweetData, response) => {
 					if (error) console.log(error);
@@ -116,7 +116,7 @@ const publishTweets = (days, specificDays) => {
 
 				publishedTweets.push(tweet);
 			} else if (sp[1] === '3' && daysOfMonth[2] && daysOfMonth[2] === now.day) {
-				const tweet = `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}\n\n${specificDay.emoji} ${specificDay.content}\n${specificDay.link}`;
+				const tweet = `📅 Aujourd'hui, le ${d.getDate()}/${("0" + (d.getMonth() + 1)).slice(-2)}/${d.getFullYear()}\n\n${specificDay.emoji} ${specificDay.content}\n🔗 ${specificDay.link}`;
 
 				client.post('statuses/update', {status: tweet}, (error, tweetData, response) => {
 					if (error) console.log(error);
@@ -124,7 +124,7 @@ const publishTweets = (days, specificDays) => {
 
 				publishedTweets.push(tweet);
 			} else if (sp[1] === '4' && daysOfMonth[3] && daysOfMonth[3] === now.day) {
-				const tweet = `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}\n\n${specificDay.emoji} ${specificDay.content}\n${specificDay.link}`;
+				const tweet = `📅 Aujourd'hui, le ${d.getDate()}/${("0" + (d.getMonth() + 1)).slice(-2)}/${d.getFullYear()}\n\n${specificDay.emoji} ${specificDay.content}\n🔗 ${specificDay.link}`;
 				
 				client.post('statuses/update', {status: tweet}, (error, tweetData, response) => {
 					if (error) console.log(error);
@@ -132,7 +132,7 @@ const publishTweets = (days, specificDays) => {
 
 				publishedTweets.push(tweet);
 			} else if (sp[1] === 'last' && daysOfMonth[daysOfMonth.length - 1] && daysOfMonth[daysOfMonth.length - 1] === now.day) {
-				const tweet = `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}\n\n${specificDay.emoji} ${specificDay.content}\n${specificDay.link}`;
+				const tweet = `📅 Aujourd'hui, le ${d.getDate()}/${("0" + (d.getMonth() + 1)).slice(-2)}/${d.getFullYear()}\n\n${specificDay.emoji} ${specificDay.content}\n🔗 ${specificDay.link}`;
 
 				client.post('statuses/update', {status: tweet}, (error, tweetData, response) => {
 					if (error) console.log(error);
