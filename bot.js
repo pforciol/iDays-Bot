@@ -1,9 +1,13 @@
 const Twitter = require('twitter');
-const dotenv = require('dotenv').config();
+const dotenv = require('dotenv').config({ path: __dirname + '/.env' });
 const config = require('./config.js');
 const daysJSON = require('./days.json');
 
 const client = new Twitter(config);
+
+Array.prototype.contains = function(element){
+	return this.indexOf(element) > -1;
+};
 
 const months = new Array();
 months[0] = "janvier";
@@ -142,6 +146,4 @@ const publishTweets = (days, specificDays) => {
 	return publishedTweets;
 }
 
-console.log(`${d.getDay()}/${d.getMonth() + 1}/${d.getFullYear()}`)
 console.log(publishTweets(days, specificDays));
-console.log("_____________________________\n");
